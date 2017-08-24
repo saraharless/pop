@@ -51,7 +51,7 @@ let word = 'nopenopenope'
 function backwards(str){
   let empty = ''
   for (var i = str.length-1; i >= 0; i--) {
-    ////print it into empty
+    empty += str.charAt(i);
   }
  return empty;
 }
